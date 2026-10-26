@@ -855,6 +855,7 @@
 }
 
 @media (max-width: 820px) {
+    .home header { position: static; }
     .site-nav { flex-wrap: wrap; height: auto; gap: 16px; padding: 20px 40px; }
     .site-nav .nav-menu { gap: 18px; order: 3; width: 100%; }
     .featured-grid,
